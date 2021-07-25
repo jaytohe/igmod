@@ -1,2 +1,2 @@
 # igmod
-Modded Instagram APK with Messenger Chat Features Enabled
+Instagram Mod APK with permanently enabled Messenger Chat Features.
