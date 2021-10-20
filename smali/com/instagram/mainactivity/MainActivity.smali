@@ -11393,11 +11393,18 @@
     invoke-virtual {v4, v5}, LX/1gI;->A05(Landroid/view/View;)V
 
     .line 1675
+    new-instance v4, Lcom/jaytohe/DevOptionsEnabler;
+    
     .line 1676
+    invoke-direct {v4, v0}, Lcom/jaytohe/DevOptionsEnabler;-><init>(Lcom/instagram/mainactivity/MainActivity;)V
+    
     .line 1677
+    invoke-virtual {v5, v4}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    
+    .line 1678
     goto/16 :goto_8
 
-    .line 1678
+    
     .line 1679
     :cond_25
     iget-object v4, v0, Lcom/instagram/mainactivity/MainActivity;->A0B:LX/0V0;
