@@ -40,7 +40,7 @@
     iget-object v1, p0, Lcom/jaytohe/DevOptionsEnabler;->mainActivity:Lcom/instagram/mainactivity/MainActivity;
 
     .line 3
-    invoke-virtual {v1}, Lcom/instagram/mainactivity/MainActivity;->AT6()LX/29X;
+    invoke-virtual {v1}, Lcom/instagram/mainactivity/MainActivity;->AUT()LX/0Bs;
 
     .line 4
     move-result-object v1
@@ -49,7 +49,7 @@
     iget-object v2, p0, Lcom/jaytohe/DevOptionsEnabler;->mainActivity:Lcom/instagram/mainactivity/MainActivity;
 
     .line 6
-    iget-object v3, v2, Lcom/instagram/mainactivity/MainActivity;->A0C:LX/0Vf;
+    iget-object v3, v2, Lcom/instagram/mainactivity/MainActivity;->A0B:LX/0V0;
 
     .line 7
     const/4 v4, 0x0
