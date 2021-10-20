@@ -2128,8 +2128,10 @@
     const-string v0, "has_interop_enable"
 
     .line 7
+    const/4 v2, 0x1
+    
     .line 8
-    invoke-interface {v1, v0, p1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v1, v0, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
     .line 9
     .line 10
