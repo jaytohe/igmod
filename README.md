@@ -8,7 +8,7 @@ Instagram Mod APK with permanently enabled Messenger Chat Features.
 
 2. Patch MainActivity, smali/X file and add a new smali class as shown in this repo.
 
-(**Make sure you check the git diffs** to understand how to patch files.
+(**Make sure you check the git diffs** to understand how to patch files.)
 
 3. Built back the patched apk using `apktool b <dir>`
 
