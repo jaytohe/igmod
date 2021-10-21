@@ -55,7 +55,7 @@
     const/4 v4, 0x0
 
     .line 8
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/instagram/debug/devoptions/api/DeveloperOptionsLauncher;->loadAndLaunchDeveloperOptions(Landroid/content/Context;LX/29X;Landroidx/fragment/app/FragmentActivity;LX/0Vf;Landroid/os/Bundle;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/instagram/debug/devoptions/api/DeveloperOptionsLauncher;->loadAndLaunchDeveloperOptions(Landroid/content/Context;LX/0Bs;Landroidx/fragment/app/FragmentActivity;LX/0V0;Landroid/os/Bundle;)V
 
     .line 9
     const/4 v0, 0x1
