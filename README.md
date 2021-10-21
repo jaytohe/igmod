@@ -20,7 +20,7 @@ Added Bonus: Enabled Instagram Dev Options. (Long-press home tab button to acces
 
 6. Go to the build dir of the patched apk and copy the new classesN+1 dex to the hybrid apk zip.
 
-7. Zipalign using `/zipalign -v 4 '/hybrid.apk' 'hybrid_signed.apk'`
+7. Zipalign using `./zipalign -v 4 '/hybrid.apk' 'hybrid_signed.apk'`
 
 8. Sign the apk using `./apksigner sign --ks 'ig.keystore' --ks-key-alias INSTAGRA 'hybrid_signed.apk'`
 
