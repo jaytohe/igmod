@@ -1,6 +1,8 @@
 # igmod
 Instagram Mod APK with permanently enabled Messenger Chat Features.
 
+Added Bonus: Enabled Instagram Dev Options. (Long-press home tab button to access)
+
 
 # How to patch a new version
 
@@ -18,8 +20,12 @@ Instagram Mod APK with permanently enabled Messenger Chat Features.
 
 6. Go to the build dir of the patched apk and copy the new classesN+1 dex to the hybrid apk zip.
 
-7. Zipalign using `/zipalign -v 4 '/home/anton/Documents/Hobby Projects/Instagram Mod/V210/hybrid.apk' '/home/anton/Documents/Hobby Projects/Instagram Mod/V210/hybrid_signed.apk'`
+7. Zipalign using `/zipalign -v 4 '/hybrid.apk' 'hybrid_signed.apk'`
 
-8. Sign the apk using `./apksigner sign --ks '/home/anton/Documents/Hobby Projects/Instagram Mod/V210/ig.keystore' --ks-key-alias INSTAGRA '/home/anton/Documents/Hobby Projects/Instagram Mod/V210/hybrid_signed.apk'`
+8. Sign the apk using `./apksigner sign --ks 'ig.keystore' --ks-key-alias INSTAGRA 'hybrid_signed.apk'`
 
 9. Copy apk to device and install.
+
+
+The process described above is how the patched apk present in [arm64](https://github.com/jaytohe/igmod/tree/main/arm64) folder is produced. 
+The steps are provided for transparency's sake in case you do not trust my apk and want to patch it yourself ;)
